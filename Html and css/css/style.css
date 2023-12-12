@@ -1,0 +1,78 @@
+
+:root {
+   --primary-color: #e3e3e3;
+   --second-color: #ffffff;
+   --black-color: #000000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url("../img/night and day.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.frame {
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: #201de09e;
+    box-shadow: 0 15px 25px rgba(29, 27, 27, 0.8);
+    margin: auto auto;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.frame h2 {
+    cursor: pointer;
+    margin: 20px 40px 60px 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.frame .fillingframe label {
+    color: rgb(227, 230, 244);
+}
+
+.frame .fillingframe input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    outline: none;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.frame input[type="submit"], .frame button[type="submit"], a.button {
+    font-family: sans-serif;
+    background: #201de09e;
+    box-shadow: 0 15px 25px rgba(13, 13, 54, 0.8);
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 2px 10px 2px 0;
+    cursor: pointer;
+}
+
+
